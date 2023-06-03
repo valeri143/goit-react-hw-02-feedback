@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledBox = styled.div`
 font-weight: bold;
-/* font-size: large;
+font-size: large;
 `;
 
 export const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
