@@ -3,11 +3,7 @@ import { Section } from './Section/Section';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Statistics } from './Statistics/Statistics';
 import { Notification } from './Notification/Notification';
-import styled from "styled-components";
-
-const StyledBox = styled.div`
-margin-left: 20px;
-`;
+import { StyledBox } from './AppStyled';
 
 export class App extends Component {
   state = {
